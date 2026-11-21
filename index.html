@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mohammed Jamal Azzam — Data Analyst · Data Science · AI &amp; Automation</title>
+  <meta name="description" content="Mohammed Jamal Azzam — Data Analyst and Data Science enthusiast building with Python, SQL, and AI. Engineering graduate from Fayoum University. Turning raw data into clear, usable insight.">
+  <meta name="author" content="Mohammed Jamal Azzam">
+  <meta name="theme-color" content="#10121D">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohammed Jamal Azzam — Data Analyst · Data Science · AI &amp; Automation">
+  <meta property="og:description" content="Portfolio of Mohammed Jamal Azzam — Data Analyst and Data Science enthusiast building data-driven solutions and AI-powered workflows.">
+  <meta property="og:image" content="assets/images/profile-01.jpg">
+  <meta property="og:url" content="https://anaazzam.github.io/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mohammed Jamal Azzam — Data Analyst">
+  <meta name="twitter:description" content="Data Analyst and Data Science enthusiast building with Python, SQL, and AI.">
+  <meta name="twitter:image" content="assets/images/profile-01.jpg">
+
+  <link rel="canonical" href="https://anaazzam.github.io/">
+
+  <!-- Favicon: circular Mo-Azzam style mark -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='47' fill='%2310121D' stroke='%23C6FF45' stroke-width='3'/%3E%3Ctext x='50' y='64' font-family='sans-serif' font-size='36' font-weight='700' text-anchor='middle' fill='%23C6FF45'%3EM%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Reveal safety: add .js immediately; if script.js never confirms, remove it after 3s -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      window.__revealOK = false;
+      setTimeout(function () {
+        if (!window.__revealOK) d.classList.remove('js');
+      }, 3000);
+    })();
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohammed Jamal Azzam",
+    "jobTitle": "Data Analyst",
+    "description": "Data Analyst, Data Science enthusiast, and AI & Automation specialist. Engineering graduate from Fayoum University.",
+    "email": "mailto:m.azzam2052@gmail.com",
+    "telephone": "+201159142105",
+    "url": "https://anaazzam.github.io",
+    "sameAs": [
+      "https://www.linkedin.com/in/muhammed-azzam-1746b9227/",
+      "https://github.com/AnaAzzam"
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Fayoum University"
+    },
+    "knowsAbout": ["Data Analysis", "Data Science", "Machine Learning", "Python", "SQL", "IoT", "Automation", "AI"]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#hero" class="brand" aria-label="Mohammed Jamal Azzam — home">
+        <span class="brand__mark" aria-hidden="true">
+          <span>Mo</span>
+          <span>Azzam</span>
+        </span>
+        <span class="brand__label">Mohammed Jamal Azzam</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+        type="button">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 01 · HERO ============ -->
+    <section id="hero" class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__name">
+            <span>Mohammed Jamal</span>
+            <span>Azzam<span class="dot">.</span></span>
+          </h1>
+          <p class="hero__title">Data Analyst · Data Science · AI &amp; Automation</p>
+          <p class="hero__lead">
+            I turn raw data into clear, structured insight — and into tools people actually use.
+            An engineering graduate building at the intersection of data science, AI, and automation.
+          </p>
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary">
+              Explore Work
+              <span aria-hidden="true">→</span>
+            </a>
+            <a href="#contact" class="btn btn--ghost">Contact</a>
+          </div>
+          <ul class="hero__stats" aria-label="Highlights">
+            <li class="stat">
+              <span class="stat__num">04</span>
+              <span class="stat__label">Certificates<br>archived</span>
+            </li>
+            <li class="stat">
+              <span class="stat__num">01</span>
+              <span class="stat__label">Hackathon<br>win</span>
+            </li>
+            <li class="stat">
+              <span class="stat__num">∞</span>
+              <span class="stat__label">Continuous<br>learning</span>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero__portrait reveal">
+          <div class="portrait">
+            <img
+              src="assets/images/profile-01.jpg"
+              alt="Portrait of Mohammed Jamal Azzam"
+              width="800" height="800" loading="eager" decoding="async">
+          </div>
+          <figcaption class="visually-hidden">Mohammed Jamal Azzam</figcaption>
+        </figure>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Python</span><span class="dot-sep">·</span>
+          <span>Pandas</span><span class="dot-sep">·</span>
+          <span>NumPy</span><span class="dot-sep">·</span>
+          <span>SQL</span><span class="dot-sep">·</span>
+          <span>Power BI</span><span class="dot-sep">·</span>
+          <span>Machine Learning</span><span class="dot-sep">·</span>
+          <span>AI Automation</span><span class="dot-sep">·</span>
+          <span>IoT</span><span class="dot-sep">·</span>
+          <span>Data Visualization</span><span class="dot-sep">·</span>
+          <span>Python</span><span class="dot-sep">·</span>
+          <span>Pandas</span><span class="dot-sep">·</span>
+          <span>NumPy</span><span class="dot-sep">·</span>
+          <span>SQL</span><span class="dot-sep">·</span>
+          <span>Power BI</span><span class="dot-sep">·</span>
+          <span>Machine Learning</span><span class="dot-sep">·</span>
+          <span>AI Automation</span><span class="dot-sep">·</span>
+          <span>IoT</span><span class="dot-sep">·</span>
+          <span>Data Visualization</span><span class="dot-sep">·</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 · ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">Engineering mind.<br>Data-driven practice.</h2>
+        </header>
+
+        <div class="about">
+          <figure class="about__image reveal">
+            <img
+              src="assets/images/profile-02.jpg"
+              alt="Mohammed Jamal Azzam"
+              width="800" height="1000" loading="lazy" decoding="async">
+          </figure>
+
+          <div class="about__copy reveal">
+            <p class="lead">
+              I'm an engineering graduate with an interdisciplinary background across data analysis,
+              data science, artificial intelligence, programming, databases, IoT systems, technical
+              education, and team leadership.
+            </p>
+            <p>
+              My direction is clear: data science, data analysis, machine learning, and AI-powered
+              applications. I care about turning messy information into structured insight, building
+              practical analytical solutions, and using modern AI technologies to solve real problems.
+            </p>
+            <p>
+              My engineering foundation, leadership experience, military service, and teaching work
+              don't distract from that focus — they reinforce it. Each one sharpened the same core
+              skill: taking complex systems and making them legible.
+            </p>
+
+            <ul class="about__facts" aria-label="Quick facts">
+              <li><span class="tag">Based in Egypt</span></li>
+              <li><span class="tag">Engineering Graduate</span></li>
+              <li><span class="tag">Arabic · English</span></li>
+              <li><span class="tag tag--accent">Open to opportunities</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 · EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">Where I've<br>done the work.</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time class="timeline__date">2024 — Present</time>
+            </div>
+            <div class="timeline__body">
+              <h3 class="timeline__role">Freelance Data Analyst &amp; Technical Freelancer</h3>
+              <p class="timeline__org">Remote</p>
+              <p class="timeline__desc">
+                End-to-end data work for clients: collection, cleaning, exploratory analysis,
+                statistical summaries, visualizations, and analytical reporting. I also build
+                AI-powered workflow automations and provide technical support.
+              </p>
+              <ul class="timeline__tags">
+                <li class="tag">Python</li>
+                <li class="tag">Pandas</li>
+                <li class="tag">EDA</li>
+                <li class="tag">Visualization</li>
+                <li class="tag">AI Automation</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time class="timeline__date">Present</time>
+            </div>
+            <div class="timeline__body">
+              <h3 class="timeline__role">Freelance Technical Instructor</h3>
+              <p class="timeline__org">Remote · Gulf Region</p>
+              <p class="timeline__desc">
+                Teaching technical and academic subjects to first- and second-year engineering and
+                computer science students. Preparing materials, designing practical exercises, and
+                explaining complex concepts with clarity.
+              </p>
+              <ul class="timeline__tags">
+                <li class="tag">Teaching</li>
+                <li class="tag">Programming</li>
+                <li class="tag">Mathematics</li>
+                <li class="tag">Communication</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time class="timeline__date">Ongoing</time>
+            </div>
+            <div class="timeline__body">
+              <h3 class="timeline__role">Officer — Egyptian Armed Forces</h3>
+              <p class="timeline__org">Egypt</p>
+              <p class="timeline__desc">
+                Service that sharpened leadership, discipline, coordination, and decision-making under
+                pressure. Operating in demanding environments where time management and clear
+                problem-solving were non-negotiable.
+              </p>
+              <ul class="timeline__tags">
+                <li class="tag">Leadership</li>
+                <li class="tag">Discipline</li>
+                <li class="tag">Team Coordination</li>
+                <li class="tag">Problem-Solving</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__meta">
+              <time class="timeline__date">2018 — 2019</time>
+            </div>
+            <div class="timeline__body">
+              <h3 class="timeline__role">Data Analysis &amp; Inventory Data Team Leader</h3>
+              <p class="timeline__org">19011 Pharmacies · Egypt</p>
+              <p class="timeline__desc">
+                Led a team responsible for analyzing inventory discrepancy and missing/lost-item
+                records. Supervised the system recording incoming and outgoing discrepancies,
+                monitored data accuracy, and supported operational decisions through reliable reporting.
+              </p>
+              <ul class="timeline__tags">
+                <li class="tag">Data Accuracy</li>
+                <li class="tag">Reporting</li>
+                <li class="tag">Team Leadership</li>
+                <li class="tag">Inventory Analysis</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 04 · SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">The stack.<br>Honestly labeled.</h2>
+        </header>
+
+        <div class="skills">
+          <article class="card skills__card reveal">
+            <h3 class="skills__title">Programming &amp; Data Analysis</h3>
+            <ul class="skills__list">
+              <li class="tag">Python</li>
+              <li class="tag">Pandas</li>
+              <li class="tag">NumPy</li>
+              <li class="tag">SciPy</li>
+              <li class="tag">Matplotlib</li>
+              <li class="tag">Seaborn</li>
+              <li class="tag">EDA</li>
+              <li class="tag">Data Cleaning</li>
+              <li class="tag">Preprocessing</li>
+              <li class="tag">Statistical Analysis</li>
+              <li class="tag">Data Visualization</li>
+              <li class="tag">Jupyter</li>
+            </ul>
+          </article>
+
+          <article class="card skills__card reveal">
+            <h3 class="skills__title">Data Science &amp; AI</h3>
+            <ul class="skills__list">
+              <li class="tag">ML Fundamentals</li>
+              <li class="tag">AI Fundamentals</li>
+              <li class="tag">Applied Statistics</li>
+              <li class="tag">AI-powered Tools</li>
+              <li class="tag">AI Workflow Automation</li>
+              <li class="tag">Data-driven Problem Solving</li>
+              <li class="tag tag--learning">Scikit-learn</li>
+            </ul>
+          </article>
+
+          <article class="card skills__card reveal">
+            <h3 class="skills__title">Databases</h3>
+            <ul class="skills__list">
+              <li class="tag">SQL</li>
+              <li class="tag">PostgreSQL</li>
+              <li class="tag">MySQL</li>
+              <li class="tag">SQLite</li>
+              <li class="tag">Database Design</li>
+              <li class="tag">Database Management</li>
+              <li class="tag">Data Quality</li>
+            </ul>
+          </article>
+
+          <article class="card skills__card reveal">
+            <h3 class="skills__title">BI &amp; Productivity</h3>
+            <ul class="skills__list">
+              <li class="tag">Excel (Intermediate)</li>
+              <li class="tag">Power BI</li>
+              <li class="tag">Word</li>
+              <li class="tag">PowerPoint</li>
+              <li class="tag">Google Sheets</li>
+              <li class="tag">Google Docs</li>
+            </ul>
+          </article>
+
+          <article class="card skills__card reveal">
+            <h3 class="skills__title">Development &amp; Technologies</h3>
+            <ul class="skills__list">
+              <li class="tag">Git</li>
+              <li class="tag">GitHub</li>
+              <li class="tag">VS Code</li>
+              <li class="tag">Linux</li>
+              <li class="tag">IoT</li>
+              <li class="tag">MQTT</li>
+              <li class="tag">Networking</li>
+              <li class="tag">Embedded Systems</li>
+              <li class="tag tag--learning">Django (Basic)</li>
+              <li class="tag tag--learning">REST APIs (Basic)</li>
+            </ul>
+          </article>
+
+          <article class="card skills__card reveal">
+            <h3 class="skills__title">AI Productivity Tools</h3>
+            <ul class="skills__list">
+              <li class="tag">ChatGPT</li>
+              <li class="tag">Google Gemini</li>
+              <li class="tag">Microsoft Copilot</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 · EDUCATION ============ -->
+    <section id="education" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">Academic<br>foundation.</h2>
+        </header>
+
+        <article class="card card--feature edu reveal">
+          <div class="edu__grid">
+            <div class="edu__main">
+              <span class="eyebrow">B.Sc. · 2020 – 2025</span>
+              <h3 class="edu__degree">Computer and Control Systems Engineering</h3>
+              <p class="edu__school">Fayoum University · Egypt</p>
+            </div>
+            <div class="edu__stat">
+              <span class="stat__num">Eng.</span>
+              <span class="stat__label">Systems · Control · Software</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 06 · FEATURED PROJECTS ============ -->
+    <section id="work" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">A graduation project.<br>An engineering proof.</h2>
+        </header>
+
+        <article class="card card--feature project reveal">
+          <div class="project__meta">
+            <span class="tag tag--accent">Graduation Project</span>
+            <span class="tag">IoT · Data · Backend</span>
+            <span class="tag">Grade: Excellent</span>
+          </div>
+          <h3 class="project__title">IoT-Based Water Conservation System</h3>
+          <p class="project__desc">
+            An IoT platform built to monitor and conserve water. I designed the Django backend,
+            modeled and managed the database, handled sensor data ingestion, integrated MQTT
+            communication, and supported the monitoring and visualization layer.
+          </p>
+          <ul class="project__tags">
+            <li class="tag">Django</li>
+            <li class="tag">MQTT</li>
+            <li class="tag">IoT Sensors</li>
+            <li class="tag">Database Design</li>
+            <li class="tag">Data Visualization</li>
+            <li class="tag">Backend</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 08 · TRAINING ============ -->
+    <section id="training" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">Structured<br>training.</h2>
+        </header>
+
+        <div class="training">
+          <article class="card reveal">
+            <h3 class="training__title">Egyptian Ministry of Defense</h3>
+            <p class="training__org">in collaboration with Wassel Corporation &amp; Leidos</p>
+            <p class="training__desc">
+              Training in large-scale systems and technical infrastructure.
+            </p>
+            <ul class="training__tags">
+              <li class="tag">Computer Networking</li>
+              <li class="tag">Large-scale Systems</li>
+              <li class="tag">Databases</li>
+              <li class="tag">Automation</li>
+              <li class="tag">Intro to Big Data</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3 class="training__title">Self-Directed Technical Learning</h3>
+            <p class="training__org">Continuous</p>
+            <p class="training__desc">
+              Applied study across data analysis, statistics, and Python's scientific stack.
+            </p>
+            <ul class="training__tags">
+              <li class="tag">Data Analysis</li>
+              <li class="tag">Embedded Systems</li>
+              <li class="tag">Statistics &amp; Probability</li>
+              <li class="tag">Python</li>
+              <li class="tag">NumPy</li>
+              <li class="tag">Pandas</li>
+              <li class="tag">SciPy</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 · CERTIFICATES ============ -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">The archive.<br>Verified.</h2>
+          <p class="section__lead">Click any certificate to view it larger.</p>
+        </header>
+
+        <div class="gallery">
+          <button class="gallery__item reveal"
+                  type="button"
+                  data-lightbox="assets/certificates/military-01.jpg"
+                  data-title="Military Certificate — 01"
+                  aria-label="View Military Certificate 01">
+            <img src="assets/certificates/military-01.jpg" alt="Military Certificate 01" loading="lazy" decoding="async">
+            <span class="gallery__label">Military Certificate · 01</span>
+          </button>
+
+          <button class="gallery__item reveal"
+                  type="button"
+                  data-lightbox="assets/certificates/military-02.jpg"
+                  data-title="Military Certificate — 02"
+                  aria-label="View Military Certificate 02">
+            <img src="assets/certificates/military-02.jpg" alt="Military Certificate 02" loading="lazy" decoding="async">
+            <span class="gallery__label">Military Certificate · 02</span>
+          </button>
+
+          <button class="gallery__item reveal"
+                  type="button"
+                  data-lightbox="assets/certificates/military-03.jpg"
+                  data-title="Military Certificate — 03"
+                  aria-label="View Military Certificate 03">
+            <img src="assets/certificates/military-03.jpg" alt="Military Certificate 03" loading="lazy" decoding="async">
+            <span class="gallery__label">Military Certificate · 03</span>
+          </button>
+
+          <button class="gallery__item reveal"
+                  type="button"
+                  data-lightbox="assets/certificates/ieee-cass.jpg"
+                  data-title="IEEE CASS Certificate"
+                  aria-label="View IEEE CASS Certificate">
+            <img src="assets/certificates/ieee-cass.jpg" alt="IEEE CASS Certificate" loading="lazy" decoding="async">
+            <span class="gallery__label">IEEE CASS · Certificate</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10 · COMMUNITY ============ -->
+    <section id="community" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">Outside the<br>data.</h2>
+        </header>
+
+        <div class="community">
+          <article class="card reveal">
+            <span class="eyebrow">Community</span>
+            <h3 class="community__title">Students for Egypt</h3>
+            <p class="community__desc">Public Relations / Organization Committee member.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="eyebrow">Community</span>
+            <h3 class="community__title">TEDx</h3>
+            <p class="community__desc">Active participant in the TEDx community.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="eyebrow">Professional</span>
+            <h3 class="community__title">IEEE Member</h3>
+            <p class="community__desc">Member of the Institute of Electrical and Electronics Engineers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 11 · STRENGTHS ============ -->
+    <section id="strengths" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">What I bring<br>to the table.</h2>
+        </header>
+
+        <ul class="strengths reveal" aria-label="Personal strengths">
+          <li class="strengths__chip">Analytical Thinking</li>
+          <li class="strengths__chip">Leadership</li>
+          <li class="strengths__chip">Team Management</li>
+          <li class="strengths__chip">Problem-Solving</li>
+          <li class="strengths__chip">Data-driven Decision Making</li>
+          <li class="strengths__chip">Communication</li>
+          <li class="strengths__chip">Technical Teaching</li>
+          <li class="strengths__chip">Time Management</li>
+          <li class="strengths__chip">Adaptability</li>
+          <li class="strengths__chip">Working Under Pressure</li>
+          <li class="strengths__chip">Project Coordination</li>
+          <li class="strengths__chip">Continuous Learning</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 12 · LANGUAGES ============ -->
+    <section id="languages" class="section">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="title">How I<br>communicate.</h2>
+        </header>
+
+        <div class="languages">
+          <article class="card reveal">
+            <h3 class="languages__name">Arabic</h3>
+            <p class="languages__level">Native</p>
+          </article>
+          <article class="card reveal">
+            <h3 class="languages__name">English</h3>
+            <p class="languages__level">Upper-Intermediate</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 13 · CAREER VISION ============ -->
+    <section id="vision" class="section">
+      <div class="container">
+        <p class="vision reveal">
+          I'm building toward a career where <span class="vision__accent">data science and AI</span>
+          solve real-world problems — not just perform in notebooks. The goal is applied intelligence:
+          models, dashboards, and automations that people trust and use.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ 14 · CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="vision vision--sm reveal">Let's build<br>something.</h2>
+
+        <div class="contact">
+          <a class="contact__link card reveal" href="mailto:m.azzam2052@gmail.com">
+            <span class="eyebrow">Email</span>
+            <span class="contact__value">m.azzam2052@gmail.com</span>
+            <button class="copy-btn" type="button"
+                    data-copy="m.azzam2052@gmail.com"
+                    aria-label="Copy email to clipboard">Copy</button>
+          </a>
+
+          <a class="contact__link card reveal" href="tel:+201159142105">
+            <span class="eyebrow">Phone</span>
+            <span class="contact__value">+20 115 914 2105</span>
+            <button class="copy-btn" type="button"
+                    data-copy="+201159142105"
+                    aria-label="Copy phone to clipboard">Copy</button>
+          </a>
+
+          <a class="contact__link card reveal"
+             href="https://www.linkedin.com/in/muhammed-azzam-1746b9227/"
+             target="_blank" rel="noopener noreferrer">
+            <span class="eyebrow">LinkedIn</span>
+            <span class="contact__value">/in/muhammed-azzam</span>
+          </a>
+
+          <a class="contact__link card reveal"
+             href="https://github.com/AnaAzzam"
+             target="_blank" rel="noopener noreferrer">
+            <span class="eyebrow">GitHub</span>
+            <span class="contact__value">@AnaAzzam</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">Mo Azzam<span class="dot">.</span></p>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="site-footer__meta">
+        Designed &amp; built by Mohammed Jamal Azzam · <span id="year">2025</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" type="button" aria-label="Close certificate preview">✕</button>
+      <img class="lightbox__img" src="" alt="" width="1200" height="900">
+      <p class="lightbox__title" id="lightbox-title"></p>
+    </div>
+  </dialog>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
